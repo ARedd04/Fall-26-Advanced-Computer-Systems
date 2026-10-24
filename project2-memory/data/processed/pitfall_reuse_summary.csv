@@ -1,0 +1,6 @@
+test,config,value_mean,value_sd,n
+bandwidth,correct_1GB_single_pass,15.2542,0.61465,3
+bandwidth,naive_4MB_reused,79.6363,9.10044,3
+latency,correct_random_chain_1GB,219.852,1.38061,3
+latency,naive_random_chain_4MB,9.1199,0.135053,3
+latency,naive_sequential_chain_1GB,5.86352,0.0497896,3

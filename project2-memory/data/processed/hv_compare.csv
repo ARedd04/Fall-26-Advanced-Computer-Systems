@@ -1,0 +1,14 @@
+metric,hv_on_mean,hv_on_sd,hv_off_mean,hv_off_sd,change_pct,higher_is_better
+L1 latency (ns),0.962021,0.00409766,0.951028,0.00843282,-1.14277,False
+L3 latency (ns),9.62306,0.427952,9.12905,0.0389654,-5.13364,False
+"DRAM latency, 4K pages (ns)",216.164,4.73829,217.818,2.00485,0.765006,False
+"DRAM latency, 2M pages (ns)",120.193,0.241558,120.9,0.844413,0.588777,False
+"TLB chase 1 GB, 4K (ns/hop)",228.084,3.95354,226.865,0.263,-0.534598,False
+"TLB chase 1 GB, 2M (ns/hop)",121.392,3.37351,121.798,0.0265016,0.335004,False
+Seq read 1 thread (GB/s),17.0506,0.126252,17.0386,0.154871,-0.0703788,True
+Random read 1 thread (GB/s),8.15368,0.131514,8.46203,0.0751581,3.78177,True
+Read 8 threads (GB/s),47.3211,0.67113,48.4745,1.32418,2.43725,True
+Write 8 threads (GB/s),23.5522,2.09692,25.4335,0.27337,7.98765,True
+"MLP 1 GB 2M, 32 chains (GB/s)",10.8196,0.0166458,10.5225,0.0175514,-2.74595,True
+SAXPY random 1 GB (ns/elem),85.7407,0.119082,85.6659,0.892841,-0.0872787,False
+SAXPY random 4 MB (ns/elem),2.59694,0.0408229,2.66082,0.0423398,2.45995,False

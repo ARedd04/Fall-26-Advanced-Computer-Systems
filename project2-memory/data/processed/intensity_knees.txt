@@ -1,0 +1,5 @@
+1 GB, 2 MB pages: knee at 24 chains, 10.2 GB/s, 150 ns -> L = 10.2 GB/s / 64 B x 150 ns = 24.0
+64 MB, 2 MB pages: knee at 24 chains, 10.4 GB/s, 148 ns -> L = 10.4 GB/s / 64 B x 148 ns = 24.0
+64 MB, 4 KB pages: knee at 24 chains, 9.7 GB/s, 158 ns -> L = 9.7 GB/s / 64 B x 158 ns = 24.0
+1 GB, 4 KB pages: knee at 6 chains, 1.4 GB/s, 273 ns -> L = 1.4 GB/s / 64 B x 273 ns = 6.0
+loaded: knee (90% of peak) ~50 GB/s, 179 ns L = 50 GB/s / 64 B x 179 ns = 141 lines in flight

@@ -1,0 +1,5 @@
+config,GBps_mean,GBps_sd,n
+one_cpu,15.5237,0.328874,3
+os,45.6362,1.50723,3
+smt_pairs,26.655,0.471427,3
+spread,48.9199,0.775833,3
