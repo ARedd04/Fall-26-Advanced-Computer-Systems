@@ -1,0 +1,5 @@
+probe: 256 MB on 2M pages
+run 1: clock 4.19658 GHz
+run 2: clock 4.1508 GHz
+run 3: clock 4.15247 GHz
+sink (ignore): 2748538695712

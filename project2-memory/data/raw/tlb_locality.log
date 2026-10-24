@@ -1,0 +1,4 @@
+locality run 1: clock 4.1685 GHz
+locality run 2: clock 4.19452 GHz
+locality run 3: clock 4.18027 GHz
+sink (ignore): 803538944

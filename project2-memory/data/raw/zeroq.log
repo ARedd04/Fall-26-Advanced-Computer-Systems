@@ -1,0 +1,17 @@
+run 1 (seed 12346): clock 4.17431 GHz
+run 1: clock after run 4.22002 GHz
+run 2 (seed 12347): clock 4.21957 GHz
+run 2: clock after run 4.13638 GHz
+run 3 (seed 12348): clock 4.13953 GHz
+run 3: clock after run 4.1767 GHz
+
+level          ns (mean +- sd over runs)   cycles
+DRAM (2M)      120.90 +- 0.84                505.1
+DRAM (4K)      217.82 +- 2.00                910.0
+L1 (2M)          0.95 +- 0.01                  4.0
+L1 (4K)          0.95 +- 0.01                  4.0
+L2 (2M)          2.87 +- 0.02                 12.0
+L2 (4K)          2.87 +- 0.03                 12.0
+L3 (2M)          8.10 +- 0.06                 33.9
+L3 (4K)          9.13 +- 0.04                 38.1
+sink (ignore): 1444151296

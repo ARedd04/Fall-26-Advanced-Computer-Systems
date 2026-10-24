@@ -1,0 +1,5 @@
+mlp: 64 MB on 4K pages
+mlp run 1: clock 4.18998 GHz
+mlp run 2: clock 4.19072 GHz
+mlp run 3: clock 4.19652 GHz
+sink (ignore): 723943424
