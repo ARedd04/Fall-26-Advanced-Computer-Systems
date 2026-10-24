@@ -1,0 +1,16 @@
+run,test,config,value,unit
+1,bandwidth,naive_4MB_reused,81.0145,GB/s
+1,bandwidth,correct_1GB_single_pass,15.9819,GB/s
+1,latency,naive_sequential_chain_1GB,5.96773,ns
+1,latency,correct_random_chain_1GB,204.967,ns
+1,latency,naive_random_chain_4MB,9.2454,ns
+2,bandwidth,naive_4MB_reused,84.4289,GB/s
+2,bandwidth,correct_1GB_single_pass,15.5991,GB/s
+2,latency,naive_sequential_chain_1GB,5.71376,ns
+2,latency,correct_random_chain_1GB,208.333,ns
+2,latency,naive_random_chain_4MB,9.93076,ns
+3,bandwidth,naive_4MB_reused,82.4212,GB/s
+3,bandwidth,correct_1GB_single_pass,15.5742,GB/s
+3,latency,naive_sequential_chain_1GB,5.75874,ns
+3,latency,correct_random_chain_1GB,218.908,ns
+3,latency,naive_random_chain_4MB,11.2748,ns

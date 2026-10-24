@@ -1,0 +1,147 @@
+kernels.cpp:45:9: missed: statement clobbers memory: __builtin_memset (&D.3127, 0, 16);
+kernels.cpp:60:18: missed: couldn't vectorize loop
+kernels.cpp:62:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:76:26: missed: couldn't vectorize loop
+kernels.cpp:76:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const float
+kernels.cpp:45:9: missed: couldn't vectorize loop
+kernels.cpp:45:9: missed: not vectorized: no vectype for stmt: _11 = D.3174[_39];
+ scalar_type: double
+kernels.cpp:45:9: missed: statement clobbers memory: __builtin_memset (&D.3174, 0, 16);
+kernels.cpp:60:18: missed: couldn't vectorize loop
+kernels.cpp:62:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:76:26: missed: couldn't vectorize loop
+kernels.cpp:76:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3841, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const float
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const float
+kernels.cpp:47:9: missed: couldn't vectorize loop
+kernels.cpp:47:9: missed: not vectorized: no vectype for stmt: _11 = D.3892[_39];
+ scalar_type: double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3892, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const double
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3942, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:26: missed: not vectorized: unsupported data-type
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:147:13: missed: not vectorized: unsupported data-type long double
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_137];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_22] = _4;
+ scalar_type: V
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_113];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_127] = _4;
+ scalar_type: V
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3841, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const float
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const float
+kernels.cpp:47:9: missed: couldn't vectorize loop
+kernels.cpp:47:9: missed: not vectorized: no vectype for stmt: _11 = D.3892[_39];
+ scalar_type: double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3892, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const double
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3942, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:26: missed: not vectorized: unsupported data-type
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:147:13: missed: not vectorized: unsupported data-type long double
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_137];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_22] = _4;
+ scalar_type: V
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_113];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_127] = _4;
+ scalar_type: V
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3841, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const float
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const float
+kernels.cpp:47:9: missed: couldn't vectorize loop
+kernels.cpp:47:9: missed: not vectorized: no vectype for stmt: _11 = D.3892[_39];
+ scalar_type: double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3892, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:52: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const double
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:149:55: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const double
+kernels.cpp:47:9: missed: statement clobbers memory: __builtin_memset (&D.3942, 0, 16);
+kernels.cpp:62:18: missed: couldn't vectorize loop
+kernels.cpp:64:51: missed: not vectorized: complicated access pattern.
+kernels.cpp:82:26: missed: couldn't vectorize loop
+kernels.cpp:82:26: missed: not vectorized: unsupported data-type
+kernels.cpp:149:26: missed: couldn't vectorize loop
+kernels.cpp:147:13: missed: not vectorized: unsupported data-type long double
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_137];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_22] = _4;
+ scalar_type: V
+kernels.cpp:132:23: missed: couldn't vectorize loop
+kernels.cpp:132:41: missed: not vectorized: no vectype for stmt: _11 = acc[k_113];
+ scalar_type: V
+kernels.cpp:127:28: missed: couldn't vectorize loop
+kernels.cpp:129:53: missed: not vectorized: unsupported use in stmt.
+kernels.cpp:125:23: missed: couldn't vectorize loop
+kernels.cpp:125:40: missed: not vectorized: no vectype for stmt: acc[k_127] = _4;
+ scalar_type: V

@@ -1,0 +1,6 @@
+g++.exe (Rev6, Built by MSYS2 project) 13.1.0
+common: -std=c++17 -O3 -g -Wall -Wextra -Wno-unknown-pragmas -static
+scalar: -fno-tree-vectorize -fno-tree-slp-vectorize -DBUILD_SCALAR
+auto: -fopenmp-simd
+native: -fopenmp-simd -march=native
+native256: -fopenmp-simd -march=native -mprefer-vector-width=256

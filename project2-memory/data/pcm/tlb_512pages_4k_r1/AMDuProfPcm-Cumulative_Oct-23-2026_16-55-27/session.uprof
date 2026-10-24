@@ -1,0 +1,31 @@
+{
+    "aggregate-level": [
+        "system"
+    ],
+    "boostfrequency": 3493.0,
+    "collectCommand": "AMDuProfPcm -i C:\\Users\\Redda\\Desktop\\Advanced Comp Sys\\Project2\\tools\\pcm_events.conf -c core=2 -d 4 -C -q -O C:\\Users\\Redda\\Desktop\\Advanced Comp Sys\\Project2\\data\\pcm\\tlb_512pages_4k_r1",
+    "elapsedTime": 5251,
+    "is-cumulative": true,
+    "is-kpi-report": false,
+    "is-profile": false,
+    "is-roofline": false,
+    "is-roofline-collected": false,
+    "is-timeseries": false,
+    "maxMemoryBandwidth": 0.0,
+    "metric": [
+        "tlb",
+        "cache",
+        "default"
+    ],
+    "nbrMemChannels": 8,
+    "outputDirectory": "C:\\Users\\Redda\\Desktop\\Advanced Comp Sys\\Project2\\data\\pcm\\tlb_512pages_4k_r1\\AMDuProfPcm-Cumulative_Oct-23-2026_16-55-27\\",
+    "p0frequency": 3500.0,
+    "packageCount": 1,
+    "percentile": 95.0,
+    "precision": 2,
+    "profile-end-time": "23-Oct-2026 16:55:33",
+    "profile-start-time": "23-Oct-2026 16:55:28",
+    "psi-data-available": false,
+    "sessionVersion": "1.1",
+    "tool": "AMDuProfPcm"
+}

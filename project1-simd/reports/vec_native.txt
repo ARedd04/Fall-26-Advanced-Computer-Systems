@@ -1,0 +1,180 @@
+kernels.cpp:14:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:33:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:32:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:28:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:45:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:46:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:66:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:65:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:62:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:14:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:33:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:32:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:28:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:24:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:45:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:46:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:66:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:65:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:62:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:138:23: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:138:23: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 8 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:16:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:35:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:34:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:30:18: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:26:12: optimized: basic block part vectorized using 16 byte vectors
+kernels.cpp:47:9: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:48:42: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:68:14: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:67:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:64:43: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:77:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:82:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:88:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:96:26: optimized: loop vectorized using 16 byte vectors
+kernels.cpp:138:23: optimized: loop vectorized using 16 byte vectors

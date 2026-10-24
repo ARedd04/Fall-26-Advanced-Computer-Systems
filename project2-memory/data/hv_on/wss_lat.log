@@ -1,0 +1,7 @@
+lat run 1: clock 4.12196 GHz
+lat run 1: clock after run 4.22389 GHz
+lat run 2: clock 4.23598 GHz
+lat run 2: clock after run 4.2306 GHz
+lat run 3: clock 4.1682 GHz
+lat run 3: clock after run 4.26308 GHz
+sink (ignore): 1428734912

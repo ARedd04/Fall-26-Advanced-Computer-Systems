@@ -1,0 +1,50 @@
+cpu: AMD Ryzen Threadripper 2920X 12-Core Processor 
+logical CPUs: 24
+core 0: logical CPUs 0,1 (SMT)
+core 1: logical CPUs 2,3 (SMT)
+core 2: logical CPUs 4,5 (SMT)
+core 3: logical CPUs 6,7 (SMT)
+core 4: logical CPUs 8,9 (SMT)
+core 5: logical CPUs 10,11 (SMT)
+core 6: logical CPUs 12,13 (SMT)
+core 7: logical CPUs 14,15 (SMT)
+core 8: logical CPUs 16,17 (SMT)
+core 9: logical CPUs 18,19 (SMT)
+core 10: logical CPUs 20,21 (SMT)
+core 11: logical CPUs 22,23 (SMT)
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 0,1
+L2 512 KB, 8-way, line 64 B, shared by CPUs 0,1
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 2,3
+L2 512 KB, 8-way, line 64 B, shared by CPUs 2,3
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 4,5
+L2 512 KB, 8-way, line 64 B, shared by CPUs 4,5
+L3 8192 KB, 16-way, line 64 B, shared by CPUs 0,1,2,3,4,5
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 6,7
+L2 512 KB, 8-way, line 64 B, shared by CPUs 6,7
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 8,9
+L2 512 KB, 8-way, line 64 B, shared by CPUs 8,9
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 10,11
+L2 512 KB, 8-way, line 64 B, shared by CPUs 10,11
+L3 8192 KB, 16-way, line 64 B, shared by CPUs 6,7,8,9,10,11
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 12,13
+L2 512 KB, 8-way, line 64 B, shared by CPUs 12,13
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 14,15
+L2 512 KB, 8-way, line 64 B, shared by CPUs 14,15
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 16,17
+L2 512 KB, 8-way, line 64 B, shared by CPUs 16,17
+L3 8192 KB, 16-way, line 64 B, shared by CPUs 12,13,14,15,16,17
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 18,19
+L2 512 KB, 8-way, line 64 B, shared by CPUs 18,19
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 20,21
+L2 512 KB, 8-way, line 64 B, shared by CPUs 20,21
+L1d 32 KB, 8-way, line 64 B, shared by CPUs 22,23
+L2 512 KB, 8-way, line 64 B, shared by CPUs 22,23
+L3 8192 KB, 16-way, line 64 B, shared by CPUs 18,19,20,21,22,23
+NUMA node 0: CPUs 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+physical memory: 65420 MB
+large page size: 2048 KB
+large pages usable by this process: yes
+benchmark CPU: logical 2, measured clock 4.14938 GHz
+Power Scheme GUID: 421aeedd-c60d-4a73-8935-1f2bd679880d  (Ultimate Performance)
+g++.exe (Rev6, Built by MSYS2 project) 13.1.0
+flags: -O2 -std=c++20 -Wall -static

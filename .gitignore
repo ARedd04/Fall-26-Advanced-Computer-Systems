@@ -1,0 +1,9 @@
+# Build outputs (rebuild with each project's build.ps1)
+*.exe
+*.o
+
+# Python cache
+__pycache__/
+
+# Editor settings
+.vscode/

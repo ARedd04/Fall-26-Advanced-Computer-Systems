@@ -1,0 +1,48 @@
+
+AMDuProfPcm Report
+
+Processor Name:,AMD Ryzen Threadripper 2920X 12-Core Processor 
+System:,Family(0x17) Model(0x08) Stepping(0x2)
+Number of Sockets :,1
+Number of CCDs :,2
+Number of Core Complexes(CCX) :,4
+Number of Cores :,12
+Number of Threads :,24
+SMT Enabled in HW:,True
+
+Core P0 state frequency (MHz):,3500.000000
+Multiplex interval (ms):,100
+Data Collection Driver:,MSR Driver
+Version:,5.3.521.0 (Public)
+
+Hypervisor Info:
+Hypervisor Enabled:,False
+Command:,"AMDuProfPcm -i C:\Users\Redda\Desktop\Advanced Comp Sys\Project2\tools\pcm_events.conf -c core=2 -d 4 -C -q -O C:\Users\Redda\Desktop\Advanced Comp Sys\Project2\data\pcm\tlb_16pages_2m_r1"
+
+Abbreviation :
+IPC    : Instructions Per CPU Cycle
+CPI    : CPU Cycles Per Instructions
+pti    : Per Thousand Instructions
+ptc    : Per Thousand CPU Cycles
+pto    : Per Thousand Operations
+
+Profile Time: 2026/10/23 16:54:56:309
+CORE METRICS
+Metric,System (Aggregated)
+Retired Instructions,10491812088.00
+Retired Macro Ops,10496310894.00
+Cycles Not in Halt,21012304455.00
+instructions_g1,10245509241.00
+cycles_g1,20513711460.00
+l1d_demand_refills,163167.00
+l2_requests_from_l1d,260622.00
+l2_misses_from_l1d,141264.00
+l1d_refills_from_dram_g1,15087.00
+instructions_g2,9816980907.00
+cycles_g2,19688407455.00
+l1_dtlb_misses,78138.00
+l2_dtlb_misses,21612.00
+l1d_refills_from_l3_or_other_ccx,123834.00
+l1d_refills_from_l2,154035.00
+
+

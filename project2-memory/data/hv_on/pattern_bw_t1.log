@@ -1,0 +1,4 @@
+bw run 1: clock 4.15382 GHz
+bw run 2: clock 4.2296 GHz
+bw run 3: clock 4.20056 GHz
+sink (ignore): 800000000

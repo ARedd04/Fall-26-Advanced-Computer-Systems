@@ -1,0 +1,2 @@
+READY
+footprint_KB,2048,pattern,sequential,elements,16002318336,ns_per_elem,0.374947

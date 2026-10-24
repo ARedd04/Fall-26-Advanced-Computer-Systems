@@ -1,0 +1,2 @@
+READY
+footprint_KB,16384,pattern,random,elements,635437056,ns_per_elem,9.4642

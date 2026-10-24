@@ -1,0 +1,2 @@
+READY
+RESULT,page,4K,pages_4K,65536,lines_per_page,1,span_KB,262144,hops,68000000,ns_per_hop,89.0628

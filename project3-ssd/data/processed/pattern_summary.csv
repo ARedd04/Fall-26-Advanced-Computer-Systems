@@ -1,0 +1,4 @@
+job,MBps_median,MBps_min,MBps_max,lat_mean_us_median,lat_mean_us_min,lat_mean_us_max,n_runs
+seqwrite_128k_compress50,1337.93,1157.52,1343.02,3123.01,3105.58,3611.23,3
+seqwrite_128k_incompressible,1324.56,859.336,1366.74,3151.24,3052.54,4867.12,3
+seqwrite_128k_zeros,1342.92,1274.26,1413.39,3119.91,2964.31,3289.27,3

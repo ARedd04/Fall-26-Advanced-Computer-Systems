@@ -1,0 +1,7 @@
+job,iops_median,iops_min,iops_max,lat_mean_us_median,lat_mean_us_min,lat_mean_us_max,n_runs
+randread_4k_qd1_1g_buffered,76384.7,76294.1,76483,12.7873,12.7781,12.8142,3
+randread_4k_qd1_1g_direct,10211.5,8193.14,10415.2,97.1977,95.3101,121.302,3
+randread_4k_sync_qd32,8849.41,8676.22,8874.31,111.39,111.079,113.61,3
+randread_4k_windowsaio_qd1,9499.98,8323.68,10388.5,104.552,95.55,119.395,3
+randread_4k_windowsaio_qd32,70976.3,70108.7,71343.8,288.321,285.821,290.988,3
+warm_cache_1g_buffered,1116.68,1092.85,1129,893.759,883.59,912.998,3

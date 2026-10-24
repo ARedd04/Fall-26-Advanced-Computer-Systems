@@ -1,0 +1,4 @@
+run 1: clock 4.15011 GHz
+run 2: clock 4.2515 GHz
+run 3: clock 4.2391 GHz
+sink (ignore): 799381778
