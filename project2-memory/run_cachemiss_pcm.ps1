@@ -5,13 +5,13 @@
 # counting starts after its setup (see tools\pcm_common.ps1) and covers $window seconds
 # of the SAXPY loop only. Counts are divided by the elements processed in that window
 # (window / ns_per_elem from the program's own timing).
-# Output: data\cachemiss_counters.csv (per-element values) + raw PCM folders in data\pcm\
+# Output: data\raw\cachemiss_counters.csv (per-element values) + raw PCM folders in data\pcm\
 #
 #   powershell -ExecutionPolicy Bypass -File .\run_cachemiss_pcm.ps1
 #   powershell -ExecutionPolicy Bypass -Command "& .\run_cachemiss_pcm.ps1 -R 1 -Sizes 64,1024"
 param([int]$window = 4, [int]$R = 3,
       [int[]]$Sizes = @(16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 262144, 1048576),
-      [string]$Out = "data\cachemiss_counters.csv")
+      [string]$Out = "data\raw\cachemiss_counters.csv")
 
 . (Join-Path $PSScriptRoot "tools\pcm_common.ps1")
 $exe  = Join-Path $PSScriptRoot "bin\cachemiss.exe"

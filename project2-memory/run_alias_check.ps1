@@ -10,7 +10,7 @@
 # If the hypothesis holds, speed should follow the offset (e.g. slow at 0, fast elsewhere)
 # and the heap runs should be slow exactly when their reported offset matches a slow one.
 # If speed stays bimodal at a FIXED offset, the hypothesis is wrong.
-# Output: data\alias_check.csv
+# Output: data\raw\alias_check.csv
 #
 #   powershell -ExecutionPolicy Bypass -File .\run_alias_check.ps1
 param([int]$Reps = 8, [int[]]$Sizes = @(16, 64, 256),
@@ -37,4 +37,4 @@ foreach ($kb in $Sizes) {
         }
     }
 }
-$rows | Export-Csv -NoTypeInformation -Encoding ascii (Join-Path $PSScriptRoot "data\alias_check.csv")
+$rows | Export-Csv -NoTypeInformation -Encoding ascii (Join-Path $PSScriptRoot "data\raw\alias_check.csv")

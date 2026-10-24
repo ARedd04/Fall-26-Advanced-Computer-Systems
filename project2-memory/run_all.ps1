@@ -1,24 +1,24 @@
-# run_all.ps1 - runs every experiment and writes raw CSVs + logs to data\
+# run_all.ps1 - runs every experiment and writes raw CSVs + logs to data\raw\
 #   .\build.ps1 ; .\run_all.ps1            (all experiments, R repeats each)
 #   .\run_all.ps1 -R 1 -Only zeroq,tlb     (subset, quick)
 # Output goes through cmd.exe so the CSVs stay plain ASCII (PowerShell 5.1's '>'
-# would write UTF-16). stderr (clock readings, progress) goes to data\<name>.log.
+# would write UTF-16). stderr (clock readings, progress) goes to data\raw\<name>.log.
 param([int]$R = 3, [string[]]$Only = @())
 
-New-Item -ItemType Directory -Force data | Out-Null
+New-Item -ItemType Directory -Force data\raw | Out-Null
 
 function Run($name, $exe, $argList) {
     if ($Only.Count -gt 0 -and -not ($Only | Where-Object { $name -like "$_*" })) { return }
     Write-Host "== $name : $exe $argList"
-    $t = Measure-Command { cmd /c "bin\$exe.exe $argList > data\$name.csv 2> data\$name.log" }
+    $t = Measure-Command { cmd /c "bin\$exe.exe $argList > data\raw\$name.csv 2> data\raw\$name.log" }
     Write-Host ("   done in {0:N0} s" -f $t.TotalSeconds)
 }
 
 # Environment for the methodology section
-cmd /c "bin\sysinfo.exe > data\sysinfo.txt 2> nul"
-powercfg /getactivescheme | Out-File -Encoding ascii -Append data\sysinfo.txt
-"hypervisor present: $((Get-CimInstance Win32_ComputerSystem).HypervisorPresent)" | Out-File -Encoding ascii -Append data\sysinfo.txt
-Get-Content bin\compiler.txt | Out-File -Encoding ascii -Append data\sysinfo.txt
+cmd /c "bin\sysinfo.exe > data\raw\sysinfo.txt 2> nul"
+powercfg /getactivescheme | Out-File -Encoding ascii -Append data\raw\sysinfo.txt
+"hypervisor present: $((Get-CimInstance Win32_ComputerSystem).HypervisorPresent)" | Out-File -Encoding ascii -Append data\raw\sysinfo.txt
+Get-Content bin\compiler.txt | Out-File -Encoding ascii -Append data\raw\sysinfo.txt
 
 Run "zeroq"            "zeroq"     "$R large"
 Run "pattern_lat"      "pattern"   "lat $R"

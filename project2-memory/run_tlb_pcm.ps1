@@ -5,12 +5,12 @@
 # AMDuProfPcm counts on CPU 2 during the chase loop only (tools\pcm_common.ps1); counts
 # are divided by the hops made in the counting window. With 2 MB pages the cache
 # footprint is identical, so the counter difference is the translation work.
-# Output: data\tlb_counters.csv (per-hop values) + raw PCM folders in data\pcm\
+# Output: data\raw\tlb_counters.csv (per-hop values) + raw PCM folders in data\pcm\
 #
 #   powershell -ExecutionPolicy Bypass -File .\run_tlb_pcm.ps1
 param([int]$window = 4, [int]$R = 3,
       [int[]]$Pages = @(16, 64, 128, 512, 1536, 4096, 8192, 16384, 65536, 262144),
-      [string]$Out = "data\tlb_counters.csv")
+      [string]$Out = "data\raw\tlb_counters.csv")
 
 . (Join-Path $PSScriptRoot "tools\pcm_common.ps1")
 $exe  = Join-Path $PSScriptRoot "bin\tlb.exe"
